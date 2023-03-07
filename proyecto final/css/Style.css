@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(../img/fondo/fondo.jpg);
+    
+}
+
+/*encabezado pag inicio*/
+.vdeo{
+    width: 100%;
+    height: 650px;
+}
+
+.yoo{
+    margin-top: -150px;
+    position: relative;
+    width: 15%;
+}
+
+.brav{
+    text-align: center;
+    background:rgb(23, 85, 219);
+    padding: 2px;
+    color:white;
+}
+
+p{
+    text-align:center;
+    background: white;
+    font-size: larger;
+}
+
+/*encabezado fin*/
+
+/* noticias */
+.parches{
+    text-align: center;
+}
+
+.wii{
+    width: 1000px;
+}
+
+main .nuevo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuevo h1{
+    color: aliceblue;
+}
+
+.new{
+    width: 1000px;
+}
+
+.stadists{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.est{
+    color: white;
+}
+
+.inw{
+    width: 500px;
+}
+
+/* noticias fin */
+
+/* operadores */
+
+.Opera{
+    padding: 20px;
+    text-align: center;
+}
+
+.tit{
+    font-size: 100px;
+    background: #1b17f1;
+}
+
+.tit:hover{
+   color: #E1306C;
+}
+
+.Opera img{
+    width: 1270px;
+}
+
+/* operadores fin */
+
+/* rangos */
+
+.encab{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.encab img{
+    width: 1000px;
+}
+
+.clas{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.chic{
+    width: 500px;
+}
+
+.u{
+    width: 250px;
+}
+
+/* rangos fin*/
+
+/* armas */
+
+.arm{
+    display: none;
+}
+
+.acces{
+    width: 800px;
+}
+
+
+
+/* armas fin*/
+
+/* mapas I */
+
+main img{    
+    width: 30%;
+}
+
+.general h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img11{
+    width: 105%;
+}
+
+.img14{
+    
+    width: 120%;
+}
+
+.bot0n{
+    width: 2%;
+}
+
+/* mapas fin */
+
+/* temporada */
+.hoja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tem{
+    display: none;
+}
+
+.generall{
+    text-align: center;
+}
+
+/* temporada fin*/
+
+/* esports */
+.fondit{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.qq{
+    width: 1310px;
+}
+
+.mani{
+    text-align: center;
+}
+
+.sw{
+    width: 1000px;
+}
+
+/* esports fin*/
+
+/* comunidad */
+.ssh{
+    background-image: url(../img/fondo/todsopera.jpg);
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+}
+
+    h2 {
+        color: rgba(255, 255, 255, 0.856);
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    input, textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+    }
+
+    textarea {
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+
+    #nombre {
+        background-color: rgba(255, 255, 255, 0.492);
+    }
+
+    #email {
+        background-color: rgba(255, 255, 255, 0.492);
+    }
+
+    #mensaje {
+        background-color: rgba(255, 255, 255, 0.492);
+        }
+
+    #botin {
+        background: #ffffff73;
+        color: #000000ab;
+        padding: 20px;
+    }
+
+    #botin:hover {
+        color: #1b17f1;
+        cursor: pointer;
+    }
+
+    @media (max-width:480px) {
+        form {
+            width: 100%;
+        }
+    }
+
+.tods{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}    
+
+.s1{
+    width: 1000px;
+}
+
+/* comunidad fin*/
+
+
+
+
