@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*header*/
+    header{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url(../img/nuves.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    
+
+    nav{ 
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding:  20px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav .enlaces a{
+        list-style: none;
+        margin: 10px 20px;
+        display: inline-block;
+        padding: 5px 0;
+        margin-right: 20px;
+        font-size: 17px;
+        font-weight: 300;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+        color: inherit;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+
+    nav .enlaces a:hover{
+        border-bottom: 3px solid rgb(255, 7, 7);
+        transition: 0.6s;
+    }
+
+    .detel{
+        margin: 8%;
+        margin-top: 13%;
+    }
+
+    .detel h1{
+        font-size: 50px;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    span{
+        color: rgba(8, 8, 8, 0.26);
+    }
+
+    .detel p{
+        color: rgb(0, 0, 0);
+        line-height: 22px;
+    }
+
+    .detel a{
+        background: black;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5px;
+    }
+
+    .imagen:hover .shape{
+        bottom: 40px;
+        right: 30%;
+    }
+
+    .imagen:hover .yo{
+        left: 30%;
+    }
+    /*header end*/
+
+    /*main*/
+    main{
+        background-color: #00000036;
+    }
+    
+    /*animacion*/
+    .imagen{
+        width: 45%;
+        height: 80%;
+        bottom: 0;
+        right: 20px;
+    }
+
+    .imagen img {
+        height: 100%;
+        position: relative;
+        
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%);
+        transition:  bottom 1s, left 1s;
+    }
+    /*animacion fin*/
+    
+    /*carusel*/
+    .contenedor{
+        width: 100%;
+        position: relative;
+        height: 780;
+    }
+    .contenedor{
+        margin: auto;
+        padding: 80px 0;
+        width: 40%;
+        max-width: 1000px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .botones{
+        font-size: 30px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 50%;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+
+    .botones:hover{
+        cursor: pointer;
+        transform: scale(1.2,1.2);
+    }
+    .atras{
+        left: 2%; 
+        float: left;
+        top: calc(50% - 70px);
+    }
+
+    .adelante{
+        left: 2%;
+        float: right;
+        top: calc(50% - 70px);
+    }
+
+    /*carusel fin*/
+
+    /*imagnes pausadas
+    .contenedor{
+        margin: auto;
+        padding: 80px 0;
+        width: 40%;
+        max-width: 1000px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .card{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .content-card{
+        width: 31%;
+        overflow: hidden;
+        height: 440px;
+    }
+
+    .content-card img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .text-team h4{
+        margin-top: 10px;
+    }
+
+    .text-team p{
+        font-size: 12px;
+        color: rgb(202, 202, 202);
+    }*/
+    /*main end*/
+
+    /*foter*/
+    footer{
+        grid-template-rows: 1000fr;
+        background: url(../img/fondofff.png);
+        background-size: cover;
+        
+    }
+
+    div .iconos{
+        position: relative;
+        width: 100%;
+        float: right;
+    }
+
+    .marca-logo img{
+        width: 50%;
+        margin-left: 180px  ;
+    }
+
+    .marca-logo{
+        width: 30%;
+        position: relative;
+        margin-bottom: 10px ;
+        float: left;
+        margin: 0 30px 0 40px;
+        text-align: center;
+    }
+
+    footer p{
+        clear: both;
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: center;
+        color: #000000;
+        margin: 0 30px 0 40px;
+    }
+    /*foter fin*/
+
+
+
+
